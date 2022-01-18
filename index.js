@@ -2,7 +2,6 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./utils/generateMarkdown");
 const generateMarkdown = require("./utils/generateMarkdown");
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -51,9 +50,9 @@ const promptUser = () => {
         message: 'Choose the appropriate license for this project: ',
         choices: [
             "Apache",
-            "BSD",
             "GNU",
             "MIT",
+            "Mozilla",
             "Open"
         ]
     },

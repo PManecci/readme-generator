@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/PManecci/readme-generator/issues"
   },
-  "homepage": "https://github.com/PManecci/readme-generator#readme"
+  "homepage": "https://github.com/PManecci/readme-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.3"
+  }
 }
