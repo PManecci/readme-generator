@@ -21,7 +21,7 @@
   "homepage": "https://github.com/PManecci/readme-generator#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "inquirer": "^7.1.0",
+    "inquirer": "^7.3.3",
     "util": "^0.12.3"
   }
 }

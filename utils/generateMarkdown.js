@@ -1,5 +1,5 @@
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(answer) {
+function generateMarkdown(answers) {
   return `
   
   # ${answers.projectTitle}
@@ -20,8 +20,6 @@ function generateMarkdown(answer) {
     ${answers.usage}
 
   ## License
-  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
-  <br />
   This application is covered by the ${answers.license} license. 
 
   `;
