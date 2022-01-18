@@ -1,9 +1,9 @@
 
   
-  # README Generator
+  # Portfolio Generator
 
   ## Description
-    undefined
+    Quickly create a portfolio ready description of your github projects
 
   ## Table of Contents
     - [Description](#description)
@@ -12,14 +12,12 @@
     - [License](#license)
 
   ## Installation
-     create a professional README for their project 
+    require npm install inquirer
 
   ## Usage
-    requires npm install inquirer
+    Users will input answers to prompted questions to generate a portfolio for github projects
 
   ## License
-  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)
-  <br />
-  This application is covered by the Apache license. 
+  This application is covered by the Open license. 
 
   

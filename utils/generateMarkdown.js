@@ -5,7 +5,7 @@ function generateMarkdown(answers) {
   # ${answers.projectTitle}
 
   ## Description
-    ${answers.description}
+    ${answers.projectDescription}
 
   ## Table of Contents
     - [Description](#description)
